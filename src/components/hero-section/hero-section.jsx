@@ -12,11 +12,11 @@ const HeroSection = () => {
         </p>
 
         <div className="hero-buttons">
-          <a className="btn-outline" href="#rooms" aria-label="Explore our rooms">
+          <a className="btn-outline" href="/rooms" aria-label="Explore our rooms">
             Explore Our Rooms
           </a>
 
-          <a className="btn-filled" href="#booking" aria-label="Book a room">
+          <a className="btn-filled" href="/rooms" aria-label="Book a room">
             <span>Book a Room</span>
             <BsArrowUpRightCircle className="btn-icon" aria-hidden="true" />
           </a>
