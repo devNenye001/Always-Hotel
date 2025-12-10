@@ -1,4 +1,5 @@
 import './footer.css'
+import { Link } from 'react-router-dom'
 
 const footer = () => {
   return (
@@ -10,19 +11,19 @@ const footer = () => {
    <div className='footergroup'>
        <div className='footerdiv'>
         <h3>Quick Links</h3>
-        <a href="#">Home</a>
-        <a href="#">About Us</a>
-        <a href="#">Rooms</a>
-        <a href="">Gallery</a>
-        <a href="">Restaurant</a>
-        <a href="#">Contact</a>
+        <Link to="/">Home</Link>
+        <Link to="/about">About Us</Link>
+        <Link to="/rooms">Rooms</Link>
+        <Link to="/gallery">Gallery</Link>
+        <Link to="/restaurant">Restaurant</Link>
+        <Link to="/contact">Contact</Link>
       </div>
       <div className="footerdiv">
         <h3>Restaurant</h3>
-        <a href="">Rice Dishes</a>
-        <a href="">Soups and Swallows</a>
-        <a href="">Proteins</a>
-        <a href="">Drinks</a>
+        <Link to="/restaurant/rice">Rice Dishes</Link>
+        <Link to="/restaurant/soups">Soups and Swallows</Link>
+        <Link to="/restaurant/proteins">Proteins</Link>
+        <Link to="/restaurant/drinks">Drinks</Link>
       </div>
       <div className="footerdiv">
         <h3>Contact</h3>
