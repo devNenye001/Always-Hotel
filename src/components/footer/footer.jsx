@@ -30,7 +30,7 @@ const footer = () => {
        
         <p> 📍 Address: 82 Eastern Bye-Pass, Tudun Wada South, Minna, Niger, Nigeria</p>
         <p> 📞 Phone Number: +234 803 388 6334</p>
-        <p> 📧  Email Address: info@alwayshotel.com</p>
+        <p> 📧  Email Address: info@alwayshotel@gmail.com</p>
       </div>
       </div>
    </div>
