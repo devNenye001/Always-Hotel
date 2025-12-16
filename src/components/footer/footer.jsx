@@ -20,10 +20,10 @@ const footer = () => {
           </div>
           <div className="footerdiv">
             <h3>Restaurant</h3>
-            <Link to="/restaurant/rice">Rice Dishes</Link>
-            <Link to="/restaurant/soups">Soups and Swallows</Link>
-            <Link to="/restaurant/proteins">Proteins</Link>
-            <Link to="/restaurant/drinks">Drinks</Link>
+            <Link to="/restaurant#rice">Rice Dishes</Link>
+            <Link to="/restaurant#soups">Soups and Swallows</Link>
+            <Link to="/restaurant#breakfast">Breakfast</Link>
+            <Link to="/restaurant#drinks">Drinks</Link>
           </div>
           <div className="footerdiv">
             <h3>Contact</h3>
