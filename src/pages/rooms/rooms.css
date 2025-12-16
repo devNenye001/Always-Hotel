@@ -1,0 +1,34 @@
+.room-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rooms-group {
+    margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  gap: 1rem;
+  width: 100%;
+  padding: 0 1rem;
+  margin-bottom: 80px;
+}
+.room-page-heading{
+    margin-top: 30px;
+    text-align: center;
+    gap: 10px;
+    padding: 0 60px;
+}
+
+.room-page-heading h2{
+      font-size: 26px;
+  margin-bottom: 1rem;
+  color: #000000;
+  text-align: center;
+  font-weight: 400;
+}
+
+.room-page-heading p{
+    color: grey;
+}

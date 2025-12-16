@@ -29,7 +29,9 @@ const Header = () => {
                 <Link to="/contact">Contact</Link>
             </div>
             <div className="book-now-desktop">
+                 <Link to="/rooms">
                 <Button label="Book Now"/>
+                </Link>
             </div>
         </nav>
     )
