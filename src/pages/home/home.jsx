@@ -10,6 +10,11 @@ import { AiFillStar } from "react-icons/ai";
 import Button from "../../components/button/button";
 
 const home = () => {
+  const phoneNumber = "2348033886334";
+
+  const openWhatsApp = () => {
+    window.open(`https://wa.me/${phoneNumber}`, "_blank");
+  };
   return (
     <div className="Home">
       <HeroSection />
@@ -33,7 +38,7 @@ const home = () => {
           </p>
           <a
             className="story-btn"
-            href="#about"
+            href="/about"
             aria-label="learn more about our story"
           >
             <span>Learn More</span>
@@ -215,8 +220,11 @@ const home = () => {
 
       <div className="last-section">
         <span>Ready for a Relaxing Stay?</span>
-        <p>Clean rooms, friendly staff, and peaceful environment. Always Hotel is perfect for a relaxing stay.</p>
-        <Button label="Book Your Stay Now"/>
+        <p>
+          Clean rooms, friendly staff, and peaceful environment. Always Hotel is
+          perfect for a relaxing stay.
+        </p>
+        <Button onClick={openWhatsApp} label="Book Your Stay Now" />
       </div>
     </div>
   );

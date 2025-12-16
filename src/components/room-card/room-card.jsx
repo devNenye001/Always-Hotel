@@ -1,4 +1,3 @@
-
 import { FaTv, FaBolt, FaFan } from "react-icons/fa";
 import { MdAcUnit, MdOutlineFireplace } from "react-icons/md";
 import "./room-card.css";
@@ -16,6 +15,12 @@ const RoomCard = ({
     light247: false,
   },
 }) => {
+  const phoneNumber = "2348033886334"; // Nigeria country code +234
+
+  const openWhatsApp = () => {
+    window.open(`https://wa.me/${phoneNumber}`, "_blank");
+  };
+
   return (
     <div className="room-card">
       <img src={image} alt={title} className="room-photo" />
@@ -51,7 +56,7 @@ const RoomCard = ({
         )}
       </div>
 
-      <Button label="Book Now"/>
+      <Button onClick={openWhatsApp} label="Book Now" />
     </div>
   );
 };
