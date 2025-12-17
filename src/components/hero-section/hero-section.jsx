@@ -19,14 +19,13 @@ const HeroSection = () => {
           <Link to="/rooms">
             <a
               className="btn-outline"
-              href="/rooms"
               aria-label="Explore our rooms"
             >
               Explore Our Rooms
             </a>
           </Link>
           <Link to="/rooms">
-            <a className="btn-filled" href="/rooms" aria-label="Book a room">
+            <a className="btn-filled"aria-label="Book a room">
               <span>Book a Room</span>
               <BsArrowUpRightCircle className="btn-icon" aria-hidden="true" />
             </a>

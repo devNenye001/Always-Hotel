@@ -35,6 +35,10 @@
   align-items: center;
 }
 
+.hero-buttons a{
+  text-decoration: none;
+}
+
 
 .btn-outline {
   padding: 0.9rem 1.6rem;
