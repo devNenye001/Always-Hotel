@@ -8,6 +8,7 @@ import About from "./pages/about-us/about-us.jsx";
 import Rooms from "./pages/rooms/rooms.jsx";
 import Gallery from "./pages/gallery/gallery.jsx";
 import Menu from "./pages/restaurant/restaurant.jsx";
+import ContactUs from "./pages/contact/contact.jsx";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/rooms" element={<Rooms />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/restaurant" element={<Menu />} />
+                <Route path="/contact" element={<ContactUs />} />
         <Route path="*" element={<Notfound />} />
       </Routes>
       <Footer />
