@@ -1,5 +1,4 @@
-
-import './contact.css'; 
+import "./contact.css";
 
 const ContactUs = () => {
   return (
@@ -8,9 +7,9 @@ const ContactUs = () => {
       <div className="contact-header">
         <h2>Contact Us</h2>
         <p>
-          Have questions or want to make a booking? We're here to help. Reach out to
-          us via phone, email, or visit us in person — we'll make sure your
-          experience is seamless and welcoming.
+          Have questions or want to make a booking? We're here to help. Reach
+          out to us via phone, email, or visit us in person — we'll make sure
+          your experience is seamless and welcoming.
         </p>
       </div>
 
@@ -49,18 +48,18 @@ const ContactUs = () => {
         {/* Map Section */}
         <div className="map-container">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.396!2d6.532!3d9.583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwMzUn!5e0!3m2!1sen!2sng!4v1730000000000"
-            allowFullScreen
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3933.915029992215!2d6.5760774!3d9.6025849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104c71c825f07327%3A0x39229e90ff71186a!2sAlways%20Hotel!5e0!3m2!1sen!2sng!4v1766136624430!5m2!1sen!2sng"
+            allowfullscreen=""
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Location Map"
+            referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
 
           {/* Overlay Card */}
           <div className="overlay-card">
             <h3>Minna, Niger State</h3>
             <p>
-              82 Eastern Bye-Pass, Tudun<br />
+              82 Eastern Bye-Pass, Tudun
+              <br />
               Wada South
             </p>
             <div className="overlay-actions">
