@@ -121,5 +121,6 @@
   .btn-filled {
     width: 100%;
     justify-content: center;
+    margin-top: 15px;
   }
 }
