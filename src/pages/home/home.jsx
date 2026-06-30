@@ -58,7 +58,7 @@ const home = () => {
         <div className="room-section-cards">
           <RoomCard
             title="Standard Room"
-            price="₦12,000 per night"
+            price="₦18,500 per night"
             image="/room1.jpg"
             amenities={{
               ac: false,
@@ -70,7 +70,7 @@ const home = () => {
           />
           <RoomCard
             title="Semi-Standard Room"
-            price="₦20,000 per night"
+            price="₦20,600 per night"
             image="/room2.jpg"
             amenities={{
               ac: true,
@@ -83,7 +83,7 @@ const home = () => {
 
           <RoomCard
             title="VIP Room"
-            price="₦55,000 per night"
+            price="₦30,000 per night"
             image="/room4.png"
             amenities={{
               ac: true,

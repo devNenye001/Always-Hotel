@@ -10,7 +10,7 @@ const Rooms = () => {
         <div className="rooms-group">
              <RoomCard
             title="Standard Room"
-            price="₦15,500 per night"
+            price="₦18,500 per night"
             image="/room1.jpg"
             amenities={{
               ac: false,
@@ -22,7 +22,7 @@ const Rooms = () => {
           />
           <RoomCard
             title="Super-Standard Room"
-            price="₦18,600 per night"
+            price="₦20,600 per night"
             image="/room2.jpg"
             amenities={{
               ac: false,
@@ -35,7 +35,7 @@ const Rooms = () => {
 
           <RoomCard
             title="Royal Standard Room"
-            price="₦20,800 per night"
+            price="₦25,800 per night"
             image="/room4.png"
             amenities={{
               ac: true,
@@ -47,7 +47,7 @@ const Rooms = () => {
           />
            <RoomCard
             title="VIP Room"
-            price="₦25,700 per night"
+            price="₦28,700 per night"
             image="/room6.jpg"
             amenities={{
               ac: true,
@@ -59,7 +59,7 @@ const Rooms = () => {
           />
            <RoomCard
             title="Bridal Shower Room"
-            price="₦31,500 per night"
+            price="₦35,500 per night"
             image="/room5.jpg"
             amenities={{
               ac: true,
@@ -71,7 +71,7 @@ const Rooms = () => {
           />
            <RoomCard
             title="Executive Suit Room"
-            price="₦40,600 per night"
+            price="₦50,600 per night"
             image="/room8.jpg"
             amenities={{
               ac: true,
@@ -83,7 +83,7 @@ const Rooms = () => {
           />
            <RoomCard
             title="Executive Royal Room"
-            price="₦50,900 per night"
+            price="₦60,900 per night"
             image="/room9.jpg"
             amenities={{
               ac: true,
