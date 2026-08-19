@@ -83,7 +83,7 @@ const home = () => {
 
           <RoomCard
             title="VIP Room"
-            price="₦30,000 per night"
+            price="₦28,700 per night"
             image="/room4.png"
             amenities={{
               ac: true,

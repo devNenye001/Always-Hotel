@@ -25,8 +25,8 @@ const Rooms = () => {
             price="₦20,600 per night"
             image="/room2.jpg"
             amenities={{
-              ac: false,
-              fan: true,
+              ac: true,
+              fan: false,
               tv: true,
               heater: true,
               light247: true,

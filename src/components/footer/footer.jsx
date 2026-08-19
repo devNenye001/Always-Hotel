@@ -1,7 +1,9 @@
 import "./footer.css";
 import { Link } from "react-router-dom";
 
-const footer = () => {
+const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="footer">
       <div className="footer-top">
@@ -40,10 +42,10 @@ const footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>© 2025 Always Hotel. All rights reserved.</p>
+        <p>© {currentYear} Always Hotel. All rights reserved.</p>
       </div>
     </footer>
   );
 };
 
-export default footer;
+export default Footer;
