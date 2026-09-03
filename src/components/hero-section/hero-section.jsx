@@ -4,31 +4,31 @@ import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
-    <section className="hero" role="region" aria-label="Hero">
+    <section className="hero" role="region" aria-label="Always Hotel Minna Hero">
       <div className="hero-content">
         <h1>
-          Experience Comfort & Warm <br /> Hospitality
+          Experience Comfort, Luxury &amp; Warm Hospitality in Minna
         </h1>
         <p>
-          Relax in beautifully furnished rooms designed for comfort, safety, and{" "}
-          <br />
-          convenience — all at friendly prices.
+          Discover Always Hotel at 82 Eastern Bye-Pass, Tudun Wada South, Minna.
+          Relax in clean, air-conditioned rooms with 24/7 power, bar &amp; restaurant.
         </p>
 
         <div className="hero-buttons">
-          <Link to="/rooms">
-            <a
-              className="btn-outline"
-              aria-label="Explore our rooms"
-            >
-              Explore Our Rooms
-            </a>
+          <Link
+            to="/rooms"
+            className="btn-outline"
+            aria-label="Explore our rooms and suites in Minna"
+          >
+            Explore Our Rooms
           </Link>
-          <Link to="/rooms">
-            <a className="btn-filled"aria-label="Book a room">
-              <span>Book a Room</span>
-              <BsArrowUpRightCircle className="btn-icon" aria-hidden="true" />
-            </a>
+          <Link
+            to="/rooms"
+            className="btn-filled"
+            aria-label="Book a room at Always Hotel Minna"
+          >
+            <span>Book a Room</span>
+            <BsArrowUpRightCircle className="btn-icon" aria-hidden="true" />
           </Link>
         </div>
       </div>

@@ -156,9 +156,12 @@
   gap: 1rem;
   width: 100%;
 }
-.room-section pre {
+.room-section pre,
+.room-section h2 {
   font-size: 36px;
-  font-weight: 300;
+  font-weight: 400;
+  margin: 0;
+  font-family: inherit;
 }
 
 .room-section-heading {
@@ -293,9 +296,12 @@
   padding: 2rem 60px;
 }
 
-.food-section pre {
+.food-section pre,
+.food-section h2 {
   font-size: 36px;
-  font-weight: 300;
+  font-weight: 400;
+  margin: 0;
+  font-family: inherit;
 }
 
 .food-section-heading {
@@ -331,7 +337,8 @@
     padding: 3rem 2rem;
   }
 
-  .food-section pre {
+  .food-section pre,
+  .food-section h2 {
     font-size: 28px;
   }
 
@@ -346,7 +353,8 @@
     padding: 2rem 1rem;
   }
 
-  .food-section pre {
+  .food-section pre,
+  .food-section h2 {
     font-size: 24px;
   }
 
@@ -361,7 +369,8 @@
     padding: 1.5rem 30px;
   }
 
-  .food-section pre {
+  .food-section pre,
+  .food-section h2 {
     font-size: 20px;
   }
 
@@ -384,9 +393,12 @@
   align-items: center;
   gap: 1rem;
 }
-.testimonial-section pre {
+.testimonial-section pre,
+.testimonial-section h2 {
   font-size: 36px;
-  font-weight: 300;
+  font-weight: 400;
+  margin: 0;
+  font-family: inherit;
 }
 .testimonial-section-heading span {
   font-size: 16px;
@@ -416,7 +428,8 @@
   .testimonial-section {
     padding: 2rem 2rem;
   }
-  .testimonial-section pre {
+  .testimonial-section pre,
+  .testimonial-section h2 {
     font-size: 28px;
   }
 
@@ -429,7 +442,8 @@
   .testimonial-section {
     padding: 2rem 1rem;
   }
-  .testimonial-section pre {
+  .testimonial-section pre,
+  .testimonial-section h2 {
     font-size: 24px;
   }
 
@@ -442,7 +456,8 @@
   .testimonial-section {
     padding: 1.5rem 30px;
   }
-  .testimonial-section pre {
+  .testimonial-section pre,
+  .testimonial-section h2 {
     font-size: 20px;
   }
 
@@ -482,9 +497,12 @@
   max-width: 600px;
 }
 
-.gallery-section pre {
+.gallery-section pre,
+.gallery-section h2 {
   font-size: 36px;
-  font-weight: 300;
+  font-weight: 400;
+  margin: 0;
+  font-family: inherit;
 }
 
 .gallery-section img {
